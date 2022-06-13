@@ -1,10 +1,5 @@
 #include <bits/stdc++.h> 
-/*
-
-    intervals[i][0] = start point of i'th interval
-    intervals[i][1] = finish point of i'th interval
-
-*/
+using namespace std;
 
 vector<vector<int>> mergeIntervals(vector<vector<int>> &v)
 {
