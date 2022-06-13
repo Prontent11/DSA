@@ -1,4 +1,5 @@
 #include <bits/stdc++.h> 
+using namespace std;
 vector<int> ninjaAndSortedArrays(vector<int>& arr1, vector<int>& arr2, int n, int m) {
 	int gap = ceil((float)(n + m) / 2);
     while(gap>0){
